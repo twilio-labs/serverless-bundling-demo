@@ -7,7 +7,7 @@ This project shows how you can split your Twilio Functions & Assets project into
 ## Setup
 
 ```bash
-git clone ...
+git clone git@github.com:twilio-labs/serverless-bundling-demo.git
 cd serverless-bundling-demo
 npm install
 ```
