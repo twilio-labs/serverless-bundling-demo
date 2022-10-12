@@ -1,0 +1,24 @@
+{
+  "name": "serverless-bundling-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js",
+    "watch": "node scripts/build.js --watch",
+    "start": "npm run watch & twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "@twilio/runtime-handler": "1.2.5",
+    "twilio": "^3.56"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.10",
+    "glob": "^8.0.3",
+    "twilio-run": "^3.4.5"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
